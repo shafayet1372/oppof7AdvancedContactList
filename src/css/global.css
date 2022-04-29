@@ -1,6 +1,8 @@
-body {
-  width: 100vw;
+body,
+html {
+  width: 100%;
   height: calc(100vh - 10vh);
+  min-height: calc(100vh - 10vh);
   position: absolute;
   display: flex;
   justify-content: center;
