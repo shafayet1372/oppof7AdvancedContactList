@@ -40,7 +40,7 @@ export default function Master() {
     return <ContactView contacts={getSearchedData} search={search} />;
   };
   return (
-    <div className={`style.container_wraper bg-dark`}>
+    <div className={`${style.container_wraper} bg-dark`}>
       <Container className={style.container_fix}>
         {!contacts.length ? (
           <Row className="my-5">
