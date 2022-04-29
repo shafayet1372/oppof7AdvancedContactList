@@ -1,0 +1,78 @@
+.container_wraper {
+  min-height: 100%;
+  overflow: hidden;
+
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.container_fix {
+  width: 340px !important;
+  margin: auto;
+  min-height: 600px;
+  max-height: 670px;
+  overflow: hidden;
+}
+.searchbox_fix:focus {
+  box-shadow: none !important;
+  border: 1px solid white !important;
+  border-left: 0px !important;
+}
+.add_button {
+  font-size: 35px;
+  fill: green;
+}
+.add_button:hover {
+  cursor: pointer;
+  fill: rgba(0, 128, 0, 0.413);
+}
+.input_fix:focus {
+  box-shadow: none !important;
+  border: 1px solid white !important;
+}
+
+.contact_icon_fix {
+  flex-basis: 10%;
+}
+.contact_display_fix {
+  flex-basis: 80%;
+  word-break: break-word;
+}
+.contact_controller_fix {
+  flex-basis: 10%;
+}
+/* .modal_fix {
+  width: 340px !important;
+} */
+.edit_icon,
+.delete_icon {
+  font-size: 20px;
+}
+
+.delete_icon:hover {
+  color: wheat !important;
+  cursor: pointer;
+}
+.edit_icon:hover {
+  color: wheat !important;
+  cursor: pointer;
+}
+
+.side_list_fix {
+  list-style: none;
+  padding: 0px;
+  font-size: 9px;
+  text-align: center;
+}
+
+.side_list_item_fix {
+  padding: 0px !important;
+  margin: 0px I !important;
+  background-color: grey !important;
+}
+.side_list_item_fix:hover {
+  background-color: rgba(128, 128, 128, 0.349) !important;
+  cursor: pointer;
+}
+
+.side_list_hidden {
+  display: none;
+}
