@@ -1,12 +1,13 @@
 .container_wraper {
-  min-height: 100% !important;
+  min-height: 100%;
   overflow: hidden;
 }
 .container_fix {
   width: 340px !important;
-  margin: auto;
-  height: calc(100vh - 20vh);
-  margin-top: 20px;
+  margin: 0px !important;
+  height: 450px;
+  /* padding: 0px !important; */
+  margin-top: 10px;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
