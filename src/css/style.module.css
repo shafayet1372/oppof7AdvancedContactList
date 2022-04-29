@@ -1,5 +1,5 @@
 .container_wraper {
-  min-height: calc(100vh - 10vh);
+  min-height: 100%;
   overflow: hidden;
 }
 .container_fix {
